@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка готовая</title>
+    <link rel="stylesheet" href="style71.css">
+    <style>
+        body {
+          font-family: 'Arial', sans-serif;
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+      
+        .tech-section {
+          background-color: #007BFF;
+          padding: 5vh 0;
+          color: #fff;
+          text-align: center;
+        }
+      
+        .tech-container {
+          width: 90vw;
+          max-width: 1200px;
+          margin: 0 auto;
+        }
+      
+        .section-title {
+          font-size: 2.5em;
+          margin-bottom: 2vh;
+          color:  #444;
+          background-color: #fff;
+          background-size: cover;
+          margin-top: 10px;
+          text-align: center;
+          padding: 20px;
+          border-radius: 40px;
+        }
+      
+        .tech-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          gap: 20px;
+          justify-items: center;
+        }
+      
+        .tech-card {
+          background-color: #8e8c8c;
+          border-radius: 10px;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+        }
+      
+        .tech-card img {
+          width: 50px;
+          height: 50px;
+          margin-bottom: 1vh;
+          border-radius: 50%;
+        }
+      
+        .tech-title {
+          font-size: 1.5em;
+          margin: 1vh 0;
+        }
+      
+        .tech-description {
+          font-size: 1em;
+        }
+      
+        @media (max-width: 768px) {
+          .tech-grid {
+            grid-template-columns: 1fr;
+          }
+        }
+      </style>
+</head>
+<body>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Привет! Я Дарья — психолог</h1>
+        <h2>Помогаю людям находить гармонию и<br>
+             счастье</h2>
+        <p>Я обладаю более чем 5-летним опытом в области психологии и<br>
+             консультирования. Моя цель — помочь вам справиться с жизненными<br>
+              трудностями и улучшить ваше эмоциональное состояние.</p>
+        <a href="#contact" class="button">Записаться на консультацию</a>
+    </div>
+    <div class="hero-image">
+        <img src="d:\сем5\Web-дизайн\лр6 доп.jpg" alt="Психолог" />
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Контактная информация</h2>
+    <p>Email: dallla.030604@gmail.com</p>
+    <p>Телефон: +375 33 123 45 67</p>
+</section>
+
+
+    <section class="achievements-section">
+        <div class="container">
+            <h2 class="section-title">Мои достижения</h2>
+            <div class="achievements-container">
+                <!-- Карточка достижения 1 -->
+                <div class="achievement-card">
+                    <img src="https://cdn-icons-png.flaticon.com/256/5432/5432715.png" alt="Иконка достижения 1" class="achievement-icon">
+                    <h3 class="achievement-title">Сертифицированный психолог</h3>
+                    <p class="achievement-description">Получила международный сертификат по когнитивно-поведенческой терапии.</p>
+                    <button class="achievement-button">Подробнее</button>
+                </div>
+                <!-- Карточка достижения 2 -->
+                <div class="achievement-card">
+                    <img src="https://cdn-icons-png.flaticon.com/256/5432/5432715.png" alt="Иконка достижения 2" class="achievement-icon">
+                    <h3 class="achievement-title">Опубликованные исследования</h3>
+                    <p class="achievement-description">Автор более 10 научных статей в ведущих психологических журналах.</p>
+                    <button class="achievement-button">Подробнее</button>
+                </div>
+                <!-- Карточка достижения 3 -->
+                <div class="achievement-card">
+                    <img src="https://cdn-icons-png.flaticon.com/256/5432/5432715.png" alt="Иконка достижения 3" class="achievement-icon">
+                    <h3 class="achievement-title">Спикер конференций</h3>
+                    <p class="achievement-description">Регулярный спикер на международных конференциях по психологии.</p>
+                    <button class="achievement-button">Подробнее</button>
+                </div>
+                <!-- Карточка достижения 4 -->
+                <div class="achievement-card">
+                    <img src="https://cdn-icons-png.flaticon.com/256/5432/5432715.png" alt="Иконка достижения 4" class="achievement-icon">
+                    <h3 class="achievement-title">Лауреат премии</h3>
+                    <p class="achievement-description">Награждена премией за вклад в развитие психотерапии.</p>
+                    <button class="achievement-button">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tech-section">
+        <div class="tech-container">
+          <h2 class="section-title">Технологии, которыми я владею</h2>
+          <div class="tech-grid">
+            <div class="tech-card">
+              <img src="https://avatars.mds.yandex.net/i?id=271a75968093fb434c38d6a3b4c52508b6864a120d51e4a8-9065783-images-thumbs&n=13" alt="Когнитивно-поведенческая терапия">
+              <h3 class="tech-title">Когнитивно-поведенческая терапия</h3>
+              <p class="tech-description">Опыт работы с клиентами, использующий методы изменения негативных мыслей и поведения.</p>
+            </div>
+            <div class="tech-card">
+              <img src="https://avatars.mds.yandex.net/i?id=271a75968093fb434c38d6a3b4c52508b6864a120d51e4a8-9065783-images-thumbs&n=13" alt="Осознанность">
+              <h3 class="tech-title">Осознанность</h3>
+              <p class="tech-description">Практика техник осознанности для снижения стресса и улучшения эмоционального благополучия.</p>
+            </div>
+            <div class="tech-card">
+              <img src="https://avatars.mds.yandex.net/i?id=271a75968093fb434c38d6a3b4c52508b6864a120d51e4a8-9065783-images-thumbs&n=13" alt="EMDR-терапия">
+              <h3 class="tech-title">EMDR-терапия</h3>
+              <p class="tech-description">Метод лечения травмы и посттравматического стрессового расстройства.</p>
+            </div>
+            <div class="tech-card">
+              <img src="https://avatars.mds.yandex.net/i?id=271a75968093fb434c38d6a3b4c52508b6864a120d51e4a8-9065783-images-thumbs&n=13" alt="Групповая терапия">
+              <h3 class="tech-title">Групповая терапия</h3>
+              <p class="tech-description">Опыт проведения групповых сессий для поддержки и улучшения взаимодействия.</p>
+            </div>
+            <div class="tech-card">
+              <img src="https://avatars.mds.yandex.net/i?id=271a75968093fb434c38d6a3b4c52508b6864a120d51e4a8-9065783-images-thumbs&n=13" alt="Терапия для детей">
+              <h3 class="tech-title">Терапия для детей</h3>
+              <p class="tech-description">Работа с детьми, используя игровые и творческие методы для решения проблем.</p>
+            </div>
+            <div class="tech-card">
+              <img src="https://avatars.mds.yandex.net/i?id=271a75968093fb434c38d6a3b4c52508b6864a120d51e4a8-9065783-images-thumbs&n=13" alt="Арт-терапия">
+              <h3 class="tech-title">Арт-терапия</h3>
+              <p class="tech-description">Использование художественных методов для выражения и обработки эмоций.</p>
+            </div>
+            <div class="tech-card">
+              <img src="https://avatars.mds.yandex.net/i?id=271a75968093fb434c38d6a3b4c52508b6864a120d51e4a8-9065783-images-thumbs&n=13" alt="Соматическая терапия">
+              <h3 class="tech-title">Соматическая терапия</h3>
+              <p class="tech-description">Интеграция тела и разума для лечения психических и эмоциональных проблем.</p>
+            </div>
+            <div class="tech-card">
+              <img src="https://avatars.mds.yandex.net/i?id=271a75968093fb434c38d6a3b4c52508b6864a120d51e4a8-9065783-images-thumbs&n=13" alt="Нарративная терапия">
+              <h3 class="tech-title">Нарративная терапия</h3>
+              <p class="tech-description">Работа с клиентами через изменение их личных историй и восприятия событий.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
